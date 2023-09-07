@@ -1,0 +1,11 @@
+{
+  "name":"no-copilot-ad",
+  "short_name": "no_copilot_ad",
+  "version":"1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://*.github.com/*"],
+    "css": ["no-copilot-ad.css"]
+  }],
+  "homepage_url": "https://github.com/guest271314/no-copilot-ad"
+}
